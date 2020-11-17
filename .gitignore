@@ -1,9 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+.vscode/
+.DS_Store
+package-lock.json
+dist/
+.firebase/
+src/javascripts/helpers/apiKeys.json
 
 # testing
 /coverage
